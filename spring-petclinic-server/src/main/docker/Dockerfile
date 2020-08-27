@@ -1,5 +1,5 @@
 FROM openjdk:alpine
-MAINTAINER Antoine Rey <antoine.rey@free.fr>
+
 # Spring Boot application creates working directories for Tomcat by default
 VOLUME /tmp
 ADD petclinic.jar petclinic.jar

@@ -28,7 +28,7 @@ To run petclinic locally using MySQL database, it is needed to change profile de
 For MySQL database, it is needed to switch profile. There is two ways:
 
 1. Update application properties: open the `application.properties` file, then change the value `hsqldb` to `mysql`
-2. Use a Spring Boot JVM parameter: simply start the JVM with the `-Dspring.profiles.active=mysql.prod` parameter.
+2. Use a Spring Boot JVM parameter: simply start the JVM with the `-Dspring-boot.run.profiles=mysql,prod` parameter.
 
 
 Before do this, it would be good to change JDBC url properties defined in the `application-mysql.properties` file:
